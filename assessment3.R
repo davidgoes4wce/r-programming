@@ -15,6 +15,8 @@
 # function, but it seems to be creating a variable "x" that is not reachable 
 # from the global environment, but is available in the environment of the 
 # makeCacheMatrix function
+
+# David Tran attempt
 makeCacheMatrix <- function(x = numeric()) {
         
         # holds the cached value or NULL if nothing is cached
